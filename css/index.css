@@ -1,0 +1,185 @@
+/* <!-- 首页专有的的模块 main start --> */
+.main {
+  width: 980px;
+  height: 455px;
+  margin-left: 220px;
+  margin-top: 10px;
+}
+.focus {
+  float: left;
+  width: 722px;
+  height: 455px;
+}
+.newflash {
+  float: right;
+  width: 251px;
+  height: 455px;
+}
+.newflash .news {
+  width: 251px;
+  height: 165px;
+  border: 1px solid #cccccc;
+}
+.newflash .news .news-hd {
+  padding: 0 15px;
+  height: 32px;
+  line-height: 32px;
+  border-bottom: 1px dotted #cccccc;
+}
+.newflash .news .news-hd h3 {
+  float: left;
+  font-size: 14px;
+}
+.newflash .news .news-hd i {
+  float: right;
+}
+.newflash .news .news-hd i::after {
+  content: "\e920";
+  font-family: "icomoon";
+}
+.newflash .news .news-bd ul li {
+  height: 25px;
+  line-height: 25px;
+  margin-left: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.newflash .lifeservice {
+  width: 251px;
+  height: 210px;
+  border: 1px solid #cccccc;
+  border-top: 0;
+  overflow: hidden;
+}
+.newflash .lifeservice ul {
+  width: 252px;
+}
+.newflash .lifeservice li {
+  position: relative;
+  text-align: center;
+  float: left;
+  height: 70px;
+  width: 63px;
+  border-right: 1px solid #e8e8e7;
+  border-bottom: 1px solid #e8e8e7;
+}
+.newflash .lifeservice li .jian {
+  position: absolute;
+  top: -3px;
+  right: 0px;
+}
+.newflash .lifeservice li i {
+  display: inline-block;
+  margin-top: 10px;
+  width: 24px;
+  height: 28px;
+  background: url(../images/icons.png) no-repeat -17px -12px;
+}
+.newflash .bargain {
+  margin-top: 5px;
+}
+/* <!-- 首页专有的的模块 main end --> */
+/* <!-- 推荐模块 start --> */
+.re {
+  margin-top: 10px;
+  background-color: #ebebeb;
+  height: 165px;
+}
+.re .re-hd {
+  float: left;
+  padding-top: 30px;
+  text-align: center;
+  width: 207px;
+  height: 165px;
+  background-color: #5c5251;
+}
+.re .re-bd {
+  float: left;
+}
+.re .re-bd li {
+  position: relative;
+  float: left;
+}
+.re .re-bd li img {
+  width: 248px;
+  height: 165px;
+}
+.re .re-bd li:nth-child(-n + 3)::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 1px;
+  height: 145px;
+  background-color: #ddd;
+}
+/* <!-- 推荐模块 end --> */
+/* <!-- 楼层区域制作 start --> */
+.jiadian .box_hd {
+  height: 30px;
+  margin-top: 24px;
+  border-bottom: 2px solid #c81623;
+}
+.jiadian .box_hd h3 {
+  float: left;
+  font-size: 18px;
+  font-weight: 400;
+  color: #c81623;
+}
+.jiadian .box_hd .tab_list {
+  float: right;
+}
+.jiadian .box_hd .tab_list li {
+  margin-top: 7px;
+  float: left;
+}
+.jiadian .box_hd .tab_list li a {
+  padding: 0 10px;
+}
+.box_bd {
+  height: 361px;
+}
+.tab_list_item > div {
+  float: left;
+  height: 361px;
+}
+.col_210 {
+  text-align: center;
+  width: 210px;
+  height: 361px;
+  background-color: #f9f9f9;
+}
+.col_210 ul li {
+  float: left;
+  width: 85px;
+  height: 33px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  line-height: 33px;
+  margin-right: 10px;
+}
+.col_210 ul {
+  padding-left: 12px;
+}
+.col_329 {
+  width: 329px;
+}
+.col_221 {
+  width: 221px;
+  border-right: 1px solid #ccc;
+}
+.col_219 {
+  width: 219px;
+}
+.bb {
+  /* 一般情况下，a如果包含有宽度的盒子，a需要转为块级元素 */
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+.floor img:hover {
+  transform: scale(1.01, 1.01);
+  border: 1px solid #ccc;
+}
+/* <!-- 楼层区域制作 end --> */
